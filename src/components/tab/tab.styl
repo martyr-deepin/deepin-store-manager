@@ -1,0 +1,23 @@
+@import '../../assets/styl/common.styl'
+.tab
+  background-color  white
+  display flex 
+  height  40px
+  margin-bottom 30px
+  div
+    flex-grow 1
+    text-align center
+    circle-border()
+    a
+      font-size 14px
+      text-decoration none
+      line-height 40px
+      color #433049
+.active
+  background-color lightBlue
+  border solid 1px #c3e5fd
+  a
+    text-decoration none
+    color #433049
+    @:active,@:visted,@:focus,@:hover
+      color #433049
